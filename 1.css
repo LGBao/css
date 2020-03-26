@@ -1,0 +1,30 @@
+article{
+	width:416px;
+	height:446px;
+	border:1px solid red;
+}
+a{
+	text-decoration:none;
+	font-size:21px;
+	color:red;
+	font-weight:bold;
+	font-family:arial;
+	display:block;
+	margin-left:6px;
+}
+a:hover{
+	color:blue;
+}
+img{
+	border-bottom:1px solid red;}
+
+p{
+	font-family:arial;
+	font-size:17px;
+	margin-left:6px;
+}
+article{
+	background-image:url("./bg.png");
+}
+
+	
