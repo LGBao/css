@@ -1,0 +1,23 @@
+article{
+	width:342px;
+	height:449px;
+	background-color:silver;
+}
+a{
+	text-decoration:none;
+	font-size:26px;
+	color:black;
+	display:block;
+	margin-left:10px;
+	font-family:arial;
+	}
+	a:hover{
+		color:red;
+	}
+p{
+	font-family:arial;
+	font-size:14.5px;
+	display:block;
+	margin-left:10px;
+	margin-right:7px;
+}
