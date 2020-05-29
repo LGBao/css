@@ -1,0 +1,105 @@
+.tieude .player2{
+    /* transform: skew(-20deg); */
+    /* border-left: 10px solid blue;
+    border-right: 10px solid blue; */
+    position: relative;
+    margin-left: 30px;
+}
+.tieude .player2::before{
+    transform: skew(-20deg);
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 20px;
+    background-color: blueviolet;
+    display: block;
+    left: -30px;
+}
+.tieude .player2::after{
+    transform: skew(-20deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    content: '';
+    width: 10px;
+    height: 20px;
+    background-color: blueviolet;
+    display: block;
+}
+article{
+    width:353px;
+    height:506px;
+}
+.tren{
+    position: relative;
+    width: 353px;
+    height: 200px;
+}
+.tren img{
+    width: 353px;
+    height: 200px;
+}
+.tren .player1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.tren .player2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:2;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px;
+}
+.tren .player3{
+    position: absolute;
+    bottom: -10px;
+    left: 25px;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    transform: rotate(45deg);
+}
+.giua{
+    width: 353px;
+    height: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+.giua img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.giua .player2{
+    position: absolute;
+    top: 10px;
+    left: 54px;
+    z-index:2;
+    text-decoration: none;
+    font-size: 16px;
+    counter-reset:brown;
+    font-weight: bold;
+
+}
+.duoi{
+    padding-top: 20px;
+}
+.duoi a{
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+}
+.duoi p{
+    text-align:justify;
+    font-size: 18px;
+}
+
