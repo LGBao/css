@@ -1,0 +1,403 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.khungbig{
+    position: absolute;
+    width: 1390px;
+    height: 620px;
+    margin-top: 100px;
+    border: 1px solid #66339936;
+    left: 10%;
+
+}
+i{
+    color: orange;
+}
+.tieude{
+    
+	position: absolute;
+	z-index: 3;
+	top: 325px;
+	left: 650px;
+	width: 540px;
+	height: 50px;
+	transform: scale(0);
+	background-color:green;
+	animation-name: node;
+	animation-duration: 5s;
+	animation-delay: 1.5s;
+}
+.tieude > a{
+
+    display: block;
+	margin: 5px 10px;
+	text-decoration: none;
+	font-size: 30px;
+    
+   
+}
+.anh1{
+    width:420px;
+    overflow: hidden;
+}
+.anh2{
+    width:420px;
+    overflow: hidden;
+}
+.anh3{
+    width:420px;
+    overflow: hidden;
+}
+@keyframes node{
+    0%{
+        opacity: 1;
+		transform: scale(0);
+	}
+	20%{
+        opacity: 1;
+		transform: scale(1);
+		left: 650px;
+	}
+	40%{
+        opacity: 1;
+		transform: scale(1);
+		top: 0px;
+		left: 650px;
+	}
+	60%{
+        opacity: 1;
+		transform: scale(1);
+		top: 0px;
+		left: -10%;
+		border-radius: 50px;
+	}
+	80%{
+        opacity: 1;
+		transform: scale(1);
+		top: 0px;
+		left:110%;
+		border-radius: 50px;
+	}
+	100%{
+        opacity: 1;
+		top:0px;
+		left:450px;
+		transform: scale(0);
+		border-radius: 50px;
+		background-color: orange;
+	}
+
+}
+@keyframes node1{
+    0%{ 
+		transform: scale(0);
+		opacity: 0;
+		width: 500px;
+		left:400px;
+	}
+	25%{
+		transform: scale(1);
+		opacity: 1;
+		width: 800px;
+		left:500px;
+	}
+	50%{
+		transform: scale(1);
+		top: 0px;
+		left:500px;
+        width: 800px;
+        opacity: 1;
+	}
+	75%{
+		transform: scale(1);
+		top: 0px;
+		left: 80%;
+		width: 800px;
+        opacity: 1;
+	}
+	100%{
+		transform: scale(1);
+		top:0px;
+        left:0px;
+        opacity: 1;
+	}
+
+}
+.khungmenu{
+    position: absolute;
+	z-index: 3;
+	top:325px;
+	left: 0px;
+	width: 100%;
+    height: 50px;
+	background-color:#A0A0A0FF ;
+	transform: scale(0);
+	animation-name: node1;
+	animation-duration: 5s;
+	animation-delay: 6s;
+	animation-fill-mode: forwards;
+}
+.menu{
+   
+}
+.fa{display: inline-block;
+    font-size: 10px;
+}
+.menu > ul{
+    
+    background-color: #A0A0A0FF;
+    width: 100%;
+    height: 20px;
+    padding:  13px 15px;
+    
+}
+ ul >li{
+     list-style: none;
+    float: left;
+    border-right: 1px solid white;
+}
+.menu > li > a{
+    width: 100%;
+    height: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 10px 10px;
+	color: #B200FFFF;
+	font-size: 20px;
+    background-color:#A0A0A0FF ;
+    
+
+}
+
+
+.khung1 > .menu1 > ul{
+    list-style: none;
+}
+
+ ul > li >a{
+    display: block;
+        text-decoration: none;
+        color:blue;
+        padding: 6px 10px;
+        font-size: 20px;
+}
+.menu > ul >li:hover a{
+    color: black;
+    background-color: blanchedalmond;
+}
+.khung1{
+    width: 420px;
+    height: 610px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+    background-color: white;
+
+	
+}
+ .ts{
+    border-bottom:1px solid red ;
+}
+.hinh1{
+    width: 420px;
+    
+}
+.menu1 > ul >li:hover a{
+    color: black;
+    background-color:white;
+    
+}
+.khung1 .lienket p{
+        padding-right: 10px;
+        float: left;
+}
+.khung1 .noidung a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung1 .noidung1 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung1 .noidung2 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung1 div{
+    margin-bottom:5px ;
+}
+.anh1 > .hinh1:hover {
+    transform: scale(1.1);
+}
+
+.khung2{
+    width: 425px;
+    height: 610px;
+    float: left;
+    margin-right: 30px;
+	background-color: white;
+}
+.khung2 .khung2con{
+    width: 425px;
+    height: 559px;
+    overflow-y: scroll;
+
+}
+.khung2 .khung2con::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+.khung2 .khung2con::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+.khung2 .khung2con::-webkit-scrollbar-track{
+    background-color: peachpuff;
+}
+.khung2 > .menu2 > ul{
+    list-style: none;
+}
+.ts{
+    border-bottom:1px solid red ;
+}
+.hinh2{
+    width: 425px;
+    
+}
+.anh2 > .hinh2:hover {
+    transform: scale(1.1);
+}
+.menu2 > ul >li:hover a{
+    color: black;
+    background-color:white;
+    
+}
+.khung2 .khung2con .lienket p{
+        padding-right: 10px;
+        float: left;
+}
+.khung2 .khung2con .noidung a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung2 .khung2con .noidung1 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung2 .khung2con .noidung2 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung2 div{
+    margin-bottom:5px ;
+}
+.khungbig a:hover{
+    color: purple;
+    background-color: thistle;
+}
+.khung3
+{
+ 
+    width: 420px;
+    height: 610px;
+    float: left;	
+    overflow: hidden;
+    background-color: white;
+    margin-right: 30px;
+}
+
+.khung3 > .menu3 > ul{
+    list-style: none;
+}
+ .ts{
+    border-bottom:1px solid red ;
+}
+.hinh3{
+    width: 420px;
+    
+}
+.anh3 > .hinh3:hover {
+    transform: scale(1.1);
+}
+.menu3 > ul >li:hover a{
+    color: black;
+    background-color:white;
+    
+}
+.khung3 .lienket p{
+        padding-right: 10px;
+        float: left;
+}
+.khung3 .noidung a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung3 .noidung1 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung3 .noidung2 a{
+    text-decoration: none;
+    color: royalblue;
+    font-size: 20px;
+}
+.khung3 div{
+    margin-bottom:5px ;
+}
+.khung1:hover{
+    transform: scale(1.1);
+    border: 1px solid grey;
+    box-shadow: 1px -7px 20px 0px grey;
+    
+}
+.khung2:hover{
+    transform: scale(1.1);
+    box-shadow: 1px -7px 20px 0px grey;
+    border: 1px solid grey;
+}
+.khung3:hover{
+    transform: scale(1.1);
+    box-shadow: 1px -7px 20px 0px grey;
+    border: 1px solid grey;
+}
+.khung1 .noidung{
+    border-bottom: 1px solid red;
+}
+.khung1 .noidung1{
+    border-bottom: 1px solid red;
+}
+.khung1 .noidung2{
+    border-bottom: 1px solid red;
+}
+.khung2 .noidung{
+    border-bottom: 1px solid red;
+}
+.khung2 .noidung1{
+    border-bottom: 1px solid red;
+}
+.khung2 .noidung2{
+    border-bottom: 1px solid red;
+}
+.khung3 .noidung{
+    border-bottom: 1px solid red;
+}
+.khung3 .noidung1{
+    border-bottom: 1px solid red;
+}
+.khung3 .noidung2{
+    border-bottom: 1px solid red;
+}
+p{
+    font-size: 16px;
+}
